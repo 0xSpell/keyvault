@@ -1,0 +1,19 @@
+#spring.cloud.config.enabled: true
+micronaut:
+  application:
+    name: keyvault
+  config-client:
+    enabled: true
+consul:
+  client:
+    default-zone: "localhost:8500"
+    config:
+      enabled: true
+vault:
+  client:
+    #log-level: trace
+    uri: localhost:1234
+    #token: vault-token
+    config:
+      enabled: true
+    kv-version: V2

@@ -1,0 +1,14 @@
+netty:
+  default:
+    allocator:
+      max-order: 3
+iv3:
+  property: "An example"
+
+#vault:
+#  client:
+#    log-level: error
+#    uri: localhost:1234
+#    token: vault-token
+#    config:
+#      enabled: true

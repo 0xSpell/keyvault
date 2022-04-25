@@ -11,9 +11,9 @@ consul:
       enabled: true
 vault:
   client:
-    #log-level: trace
+    log-level: trace
     uri: localhost:1234
-    #token: vault-token
+    token: vault-token
     config:
       enabled: true
     kv-version: V2

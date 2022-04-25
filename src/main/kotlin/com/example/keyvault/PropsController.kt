@@ -1,4 +1,4 @@
-package ai.iv3.keyvault
+package com.example.keyvault
 
 import io.micronaut.context.annotation.Value
 import io.micronaut.http.annotation.Controller
@@ -6,7 +6,7 @@ import io.micronaut.http.annotation.Get
 
 @Controller
 class PropsController(
-  @Value("\${iv3.property}")
+  @Value("\${example.property}")
   val config: String,
   @Value("\${testkey}")
   val secondary: String?,

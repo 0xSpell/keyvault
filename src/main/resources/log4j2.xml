@@ -6,10 +6,10 @@
         </Console>
     </Appenders>
     <Loggers>
-        <Logger name="ai.iv3.keyvault" level="info" additivity="false">
+        <Logger name="io.micronaut.context.condition" level="trace" additivity="false">
             <AppenderRef ref="LogToConsole"/>
         </Logger>
-        <Logger name="io.micronaut.context.condition" level="trace" additivity="false">
+        <Logger name="com.example.keyvault" level="info" additivity="false">
             <AppenderRef ref="LogToConsole"/>
         </Logger>
         <Root level="warn">

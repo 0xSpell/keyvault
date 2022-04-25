@@ -7,7 +7,7 @@ plugins {
 }
 
 version = "0.1"
-group = "ai.iv3.keyvault"
+group = "com.example.keyvault"
 
 val kotlinVersion=project.properties.get("kotlinVersion")
 repositories {
@@ -39,7 +39,7 @@ dependencies {
 
 
 application {
-    mainClass.set("ai.iv3.keyvault.ApplicationKt")
+    mainClass.set("com.example.keyvault.ApplicationKt")
 }
 java {
     sourceCompatibility = JavaVersion.toVersion("11")
@@ -63,7 +63,7 @@ micronaut {
     testRuntime("junit5")
     processing {
         incremental(true)
-        annotations("ai.iv3.keyvault.*")
+        annotations("com.example.keyvault.*")
     }
 }
 
